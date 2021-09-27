@@ -26,7 +26,7 @@ export default function Navigation() {
       <h4 className={styles.navHeading}>choose an exporting country</h4>
       <ul>
         {countries.map((item) => (
-          <li onClick={(e) => chooseCountry(item.id, e)} key={item.id} class="list-item">
+          <li onClick={(e) => chooseCountry(item.id, e)} key={item.id} className="list-item">
             <img src={item.flag} alt={item.flag} />
           </li>
         ))}
