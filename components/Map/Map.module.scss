@@ -1,0 +1,15 @@
+.mapContainer {
+  height: 55rem;
+  width: 100%;
+  position: relative;
+}
+
+.map {
+  width: 100%;
+  z-index: 10;
+  svg {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+  }
+}
